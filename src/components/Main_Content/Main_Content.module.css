@@ -1,6 +1,9 @@
 .container {
     background-color: #585CC6;
     grid-area: content;
+    background-image: url("./../../img/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: 800px 0;
 }
 
 .reviews_container{}
@@ -109,6 +112,9 @@
 
 
 @media (min-width: 1800px) {
+    .container {
+        background-position: 1200px 0;
+    }
     .person_picture {
         height: 450px;
     }
@@ -141,6 +147,9 @@
     }
 }
 @media (max-width: 1215px) {
+    .container {
+        background-position: 650px 0;
+    }
     .person_picture {
         height: 500px;
         width: 60%;
@@ -283,6 +292,10 @@
 }
 
 @media (max-width: 760px) {
+    .container {
+        background-position: 200px 0;
+        background-size: contain;
+    }
     .welcome_phrase {
         font-size: 3.5rem;
     }
@@ -348,6 +361,10 @@
     }
 }
 @media (max-width: 590px) {
+    .container {
+        background-position: 150px -150px;
+        background-size: contain;
+    }
     .welcome_phrase {
         font-size: 4rem;
     }

@@ -1,0 +1,494 @@
+.container {
+    background-color: #585CC6;
+    grid-area: content;
+}
+
+.reviews_container{}
+
+
+.welcome_phrase_container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.welcome_phrase {
+    color: white;
+    font-weight: 500;
+    font-size: 7.75rem;
+}
+
+.person_all_info {
+    width: 90%;
+    margin: 0 auto 120px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.person_picture {
+    background-image: url("./../../img/me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -35px;
+    width: 40%;
+    height: 383px;
+    margin-top: 32px;
+}
+.person_description {
+    background-color: white;
+    width: 59%;
+    height: 383px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.description_head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.person_name {
+    color: #585CC6;
+    font-size: 32px;
+    font-weight: 700;
+}
+.birth_date {
+    color: grey;
+    font-size: 18px;
+}
+.city {
+    margin-right: 40px;
+
+} .city span {
+      font-weight: 600;
+  }
+  .sex span {
+      font-weight: 600;
+  }
+  .age span {
+      font-weight: 600;
+  }
+.about_yourself span {
+      font-weight: 600;
+  }
+.icon_sex {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./../../img/Female.png");
+    background-size: cover;
+    margin-right: 40px;
+}
+.main_person_info {
+    margin-top: 20px;
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about_yourself {
+    margin: 18px 0 30px;
+}
+.about_yourself_btw {
+    margin-bottom: 15px;
+}
+.pet {
+    display: flex;
+    align-items: start;
+}
+.pet_icon {
+    margin-right: 10px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./../../img/DogFood.png");
+}
+.pet span {
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+
+
+@media (min-width: 1800px) {
+    .person_picture {
+        height: 450px;
+    }
+    .person_description {
+        height: 400px;
+    }
+    .welcome_phrase_container {
+        width: 75%;
+    }
+    .about_yourself_btw {
+        margin-bottom: 25px;
+    }
+}
+@media (min-width: 1440px) {
+    .person_all_info {
+        max-width: 1440px;
+    }
+}
+@media (max-width: 1300px) {
+    .welcome_phrase {
+        font-size: 6rem;
+    }
+    .person_picture {
+        height: 500px;
+        width: 40%;
+    }
+    .person_description {
+        height: 450px;
+        width: 60%;
+    }
+}
+@media (max-width: 1215px) {
+    .person_picture {
+        height: 500px;
+        width: 60%;
+        margin-left: 5%;
+        background-position-y: -30px;
+    }
+    .person_description {
+        height: 700px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .person_all_info {
+        width: 100%;
+        margin: 0 auto 120px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .person_name {
+        font-size: 60px;
+    }
+    .birth_date {
+        font-size: 36px;
+    }
+    .city, .sex, .age, .about_yourself {
+        font-size: 25px;
+    }
+    .city span {
+          font-size: 25px;
+      }
+    .sex span {
+        font-size: 25px;
+    }
+    .age span {
+        font-size: 25px;
+    }
+    .about_yourself span {
+        font-size: 25px;
+    }
+    .icon_sex {
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+        margin-right: 40px;
+    }
+    .main_person_info {
+        margin-top: 50px;
+        width: 90%;
+    }
+    .about_yourself {
+        margin: 50px 0 50px;
+        width: 90%;
+    }
+    .about_yourself_btw {
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+    .pet {
+        font-size: 25px;
+    }
+    .pet_icon {
+        margin-right: 18px;
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("./../../img/DogFood.png");
+    }
+    .pet span {
+        margin-right: 10px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1100px) {
+    .welcome_phrase {
+        font-size: 5rem;
+    }
+    .person_picture {
+        height: 450px;
+        width: 70%;
+        margin-left: 30%;
+        background-position-y: -60px;
+    }
+    .person_description {
+        height: 600px;
+        width: 90%;
+        margin: -30px auto 0;
+    }
+    .person_name {
+        font-size: 40px;
+    }
+    .birth_date {
+        font-size: 25px;
+    }
+    .city, .sex, .age, .about_yourself {
+        font-size: 18px;
+    }
+    .city span {
+        font-size: 18px;
+    }
+    .sex span {
+        font-size: 18px;
+    }
+    .age span {
+        font-size: 18px;
+    }
+    .about_yourself span {
+        font-size: 18px;
+    }
+    .icon_sex {
+        width: 20px;
+        height: 20px;
+        margin-right: 40px;
+    }
+    .main_person_info {
+        margin-top: 30px;
+        width: 90%;
+    }
+    .about_yourself {
+        margin: 30px 0 30px;
+        width: 90%;
+    }
+    .about_yourself_btw {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .pet {
+        font-size: 20px;
+    }
+    .pet_icon {
+        margin-right: 10px;
+        width: 32px;
+        height: 32px;
+    }
+    .pet span {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 760px) {
+    .welcome_phrase {
+        font-size: 3.5rem;
+    }
+    .person_picture {
+        height: 400px;
+        max-width: 560px;
+
+        background-position-y: -50px;
+    }
+    .person_description {
+        height: 600px;
+        width: 90%;
+        margin: -50px auto 0;
+    }
+    .person_name {
+        font-size: 30px;
+    }
+    .birth_date {
+        font-size: 20px;
+    }
+    .about_yourself_btw {
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+    .pet {
+        font-size: 20px;
+    }
+    .city, .sex, .age, .about_yourself {
+        font-size: 17px;
+    }
+    .city span {
+        font-size: 17px;
+    }
+    .sex span {
+        font-size: 17px;
+    }
+    .age span {
+        font-size: 17px;
+    }
+    .about_yourself span {
+        font-size: 17px;
+    }
+    .icon_sex {
+        width: 17px;
+        height: 17px;
+    }
+    .main_person_info {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .about_yourself {
+        margin: 30px 0 30px;
+        width: 90%;
+    }
+    .pet_icon {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .pet span {
+        margin-right: 5px;
+    }
+}
+@media (max-width: 590px) {
+    .welcome_phrase {
+        font-size: 4rem;
+    }
+    .person_picture {
+        height: 400px;
+        width: 500px;
+        margin: 0 0 0 auto;
+        background-position-y: -50px;
+    }
+    .person_description {
+        height: 550px;
+        width: 90%;
+        margin: -20px auto 0;
+    }
+    .person_name {
+        font-size: 25px;
+    }
+    .birth_date {
+        font-size: 18px;
+    }
+    .about_yourself_btw {
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    .pet {
+        font-size: 16px;
+    }
+    .city, .sex, .age, .about_yourself {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    .city span {
+        font-size: 16px;
+    }
+    .sex span {
+        font-size: 16px;
+    }
+    .age span {
+        font-size: 16px;
+    }
+    .about_yourself span {
+        font-size: 16px;
+    }
+    .icon_sex {
+        margin: 5px 15px 0 -15px;
+        width: 16px;
+        height: 16px;
+    }
+    .pet_icon {
+        margin-right: 10px;
+        width: 25px;
+        height: 25px;
+        margin-top: 4px;
+    }
+    .pet span {
+        margin-right: 4px;
+    }
+}
+/*@media (max-width: 406px){*/
+/*    .person_picture {*/
+/*        height: 300px !important;*/
+/*        width: 400px !important;*/
+/*        background-position-y: -30px !important;*/
+/*        margin-left: 20% !important;*/
+/*        margin-top: 10px !important;*/
+/*    }*/
+/*    .person_description {*/
+/*        height: 430px !important;*/
+/*        margin: -50px auto 0 !important;*/
+/*    }*/
+/*}*/
+@media (min-width: 320px) {
+    /*.container {*/
+    /*    margin-top: 0;*/
+    /*}*/
+    /*.welcome_phrase {*/
+    /*    font-size: 48px;*/
+    /*}*/
+    /*.person_picture {*/
+    /*    height: 200px;*/
+    /*    max-width: 304px;*/
+    /*    background-position-y: -20px;*/
+    /*}*/
+    /*.person_description {*/
+    /*    height: 482px;*/
+    /*    width: 90%;*/
+    /*    margin: -20px auto 0;*/
+    /*    padding: 16px;*/
+    /*}*/
+    /*.main_person_info {*/
+    /*    margin-top: 16px;*/
+    /*}*/
+    /*.about_yourself {*/
+    /*    margin: 16px 0 0;*/
+    /*}*/
+    /*.person_name {*/
+    /*    font-size: 24px;*/
+    /*}*/
+    /*.birth_date {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.description_head {*/
+    /*    flex-direction: column;*/
+    /*}*/
+    /*.about_yourself_btw {*/
+    /*    margin-bottom: 25px;*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.pet {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.city, .sex, .age, .about_yourself {*/
+    /*    font-size: 15px;*/
+    /*    margin-right: 15px;*/
+    /*}*/
+    /*.city span {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.sex span {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.age span {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.about_yourself span {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.icon_sex {*/
+    /*    margin: 5px 15px 0 -15px;*/
+    /*    width: 16px;*/
+    /*    height: 16px;*/
+    /*}*/
+    /*.pet_icon {*/
+    /*    margin-right: 6px;*/
+    /*    width: 20px;*/
+    /*    height: 20px;*/
+    /*    margin-top: 3px;*/
+    /*}*/
+    /*.pet span {*/
+    /*    margin-right: 3px;*/
+    /*}*/
+}
+
+

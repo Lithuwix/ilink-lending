@@ -1,0 +1,15 @@
+.app_wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "content content content"
+    "footer footer footer";
+  grid-template-rows: 116px 1fr 64px;
+}
+
+@media (min-width: 320px) and (max-width: 590px) {
+  .app_wrapper {
+    grid-template-rows: 77px 1fr 64px;
+  }
+}
